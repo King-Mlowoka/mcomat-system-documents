@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.23.2-->
+  <key attr.name="Description" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0" xml:space="preserve"/>
+    <node id="n0">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="145.51356620633632" width="320.0" x="390.0" y="3.5174817221769814"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="62.03242492675781" x="128.9837875366211" xml:space="preserve" y="4.0">Employees</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="112.0007553100586" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="310.00244140625" x="2.0" xml:space="preserve" y="29.45209407806398">PK | ID: characters NOT NULL
+   | first_name: characters NOT NULL
+   | last_name: characters NOT NULL
+   | gender: characters NOT NULL
+   | email: email
+   | password: characters NOT NULL
+   | OTP: characters NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="82.19999999999999" width="320.0" x="792.4" y="255.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="33.172210693359375" x="143.4138946533203" xml:space="preserve" y="4.0">Roles</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="52.000335693359375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="310.00244140625" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement  NOT NULL
+   | name: characters NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="109.60000000000002" width="320.0" x="390.0" y="255.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="88.80462646484375" x="115.59768676757812" xml:space="preserve" y="4.0">Employee Roles</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="310.00244140625" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | user (from Employees): NOT NULL
+FK | role (from Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.0" width="330.34421356371513" x="786.0" y="415.5"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="55.54039001464844" x="137.40191177453335" xml:space="preserve" y="4.0">Programs</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | code: characters NOT NULL
+   | name: characters NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="196.82911454102373" width="330.34421356371513" x="786.0" y="576.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="46.456298828125" x="141.94395736779506" xml:space="preserve" y="4.0">Courses</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="160.00109100341797" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | program board (from Program Board): NOT NULL
+   | code: characters NOT NULL
+   | name: characters NOT NULL
+FK | level (from Levels): NOT NULL
+   | aim: text NOT NULL
+   | minimum learning hours: int NOT NULL
+   | maximum learning hours: int NOT NULL
+   | assessment method: characters NOT NULL
+   | lecture (from Employee Roles): NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="110.0" width="330.34421356371513" x="1182.0" y="259.5"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="41.27227783203125" x="144.53596786584194" xml:space="preserve" y="4.0">Boards</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | code: characters NOT NULL
+   | name: characters NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="110.0" width="330.34421356371513" x="1182.0" y="415.5"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="90.41265869140625" x="119.96577743615444" xml:space="preserve" y="4.0">Program Boards</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="76.00050354003906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | program (from Program): NOT NULL
+FK | board (from Board): NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="132.0" width="336.54069861900894" x="1564.6" y="261.7"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="48.43632507324219" x="144.0521867728835" xml:space="preserve" y="4.0">Criterias</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="100.00067138671875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | board (from Board): NOT NULL
+   | minimum scpre: int NOT NULL
+   | maximum score: int NOT NULL
+   | remark: characters NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.0" width="320.0" x="390.0" y="576.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="73.16847229003906" x="123.41576385498047" xml:space="preserve" y="4.0">Study Modes</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement  NOT NULL
+   | name: characters NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="110.0" width="330.34421356371513" x="384.82789321814244" y="415.50000000000006"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="122.30885314941406" x="104.01768020715053" xml:space="preserve" y="4.0">Program Study Modes</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="76.00050354003906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | program (from Programs): NOT NULL
+FK | mode (from Study Modes): NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="109.60000000000002" width="330.34421356371513" x="390.0" y="722.5"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="37.13224792480469" x="146.60598281945522" xml:space="preserve" y="4.0">Levels</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="76.00050354003906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement  NOT NULL
+   | level: int NOT NULL
+   | qualification: characters NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="122.15434606011377" width="330.3871649065802" x="1182.0" y="576.0"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="99.38868713378906" x="115.49923888639569" xml:space="preserve" y="4.0">Course Outcomes</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="76.00050354003906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | course (from Courses): NOT NULL
+   | position: int NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="122.15434606011377" width="330.38716490657976" x="1182.0000000000005" y="754.3086921202275"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="141.70098876953125" x="94.34308806852414" xml:space="preserve" y="4.0">Course Indicative Content</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="76.00050354003906" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | course (from Courses): NOT NULL
+   | position: int NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.0" width="336.54069861900894" x="1564.6" y="401.00719740048737"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="59.3323974609375" x="138.60415057903583" xml:space="preserve" y="4.0">Outcomes</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+   | description: text NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.0" width="336.54069861900894" x="1564.6" y="781.217059301381"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="101.64469909667969" x="117.44799976116474" xml:space="preserve" y="4.0">Indicative Content</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+   | description: text NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.0" width="330.3871649065802" x="1564.6000000000001" y="673.4118277822909"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="104.26072692871094" x="113.06321898893452" xml:space="preserve" y="4.0">Course References</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+FK | course (from Courses): NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="96.0" width="336.54069861900894" x="1564.6000000000001" y="527.0071974004874"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Ubuntu Light" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.452094078063965" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="64.20443725585938" x="136.16813068157467" xml:space="preserve" y="4.0">References</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Ubuntu Mono" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="64.00041961669922" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="328.00262451171875" x="2.0" xml:space="preserve" y="29.452094078063965">PK | ID: int autoincrement NOT NULL
+   | book description: text NOT NULL
+FK | dean of academics (from Employee Roles): NOT NULL
+   | date registered: date NOT NULL DEFAULT DATENOW
+   | status: characters NOT NULL DEFAULT 'Active'<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <edge id="e0" source="n0" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-17.780869212022594" sy="22.087302754921115" tx="-17.780869212022594" ty="-1.9041835905766789"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-31.999985422960094" y="50.98412137636603">
+            <y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n2" target="n1">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-0.7999999999999545" sy="-13.699999999999989" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_optional" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n2" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="55.75" sy="38.17447916666668" tx="-117.68512608207351" ty="-5.074999999999989">
+            <y:Point x="605.75" y="395.70817221770915"/>
+            <y:Point x="750.3999999999999" y="395.70817221770915"/>
+            <y:Point x="750.3999999999999" y="458.425"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n3" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="1.0323256673866095" ty="-7.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n6" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="1.0323256673866095" sy="-7.0" tx="1.0323256673866097" ty="11.985416666666639"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_optional" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n4" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-134.20233676025921" ty="18.92500000000001">
+            <y:Point x="951.1721067818576" y="551.56"/>
+            <y:Point x="1212.0" y="551.56"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n2" target="n5">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="107.20000000000005" sy="39.35999999999996" tx="-126.35666168812112" ty="34.65999999999997"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n5" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-13.200000000000001"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n2" target="n6">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="112.79999999999995" sy="4.9599999999999795" tx="-134.615267027214" ty="-38.94">
+            <y:Point x="662.8" y="386.05878147847284"/>
+            <y:Point x="1211.6" y="386.05878147847284"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n2" target="n7">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="131.52473490945363" sy="-13.480108141491485" tx="-125.79118480513888" ty="-13.782955168562296">
+            <y:Point x="681.5247349094536" y="231.48115353371227"/>
+            <y:Point x="1604.9913484971567" y="231.48115353371227"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n2" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-18.453907392364044" sy="9.84565393988629" tx="-8.779792437236269" ty="18.883966601977363">
+            <y:Point x="338.81072298943934" y="319.6456539398863"/>
+            <y:Point x="338.81072298943934" y="693.2985238724892"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n2" target="n9">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n2" target="n8">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-4.916133225020303" sy="36.854524776604194" tx="0.0" ty="0.0">
+            <y:Point x="346.5635093419983" y="346.6545247766042"/>
+            <y:Point x="346.5635093419983" y="624.0"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e13" source="n8" target="n9">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e14" source="n9" target="n3">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-1.6523248651219777" sy="29.99286758732717" tx="-101.72418044181691" ty="36.992867587327225"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e15" source="n2" target="n10">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-4.916133225020303" sy="-20.49572705117805" tx="0.0" ty="0.0">
+            <y:Point x="323.55665312753854" y="289.30427294882196"/>
+            <y:Point x="323.55665312753854" y="777.3"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e16" source="n10" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="5.211944778885354" sy="24.61413484971581" tx="-95.23708284668365" ty="-1.164313278434381">
+            <y:Point x="855.935023935174" y="801.9141348497158"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e17" source="n12" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-20.553427930120463" ty="71.63902789945712">
+            <y:Point x="930.6186788517371" y="815.3858651502844"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e18" source="n11" target="n4">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="2.3153949371685183" ty="-32.48273185314092"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_mandatory" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e19" source="n12" target="n14">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="2.3698748984556914" sy="13.077173030056883" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_optional" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e20" source="n11" target="n13">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="4.721121039804984" sy="-37.69190576766891" tx="-122.50722989439464" ty="4.199645816409088">
+            <y:Point x="1351.9147034930952" y="539.9706839967503"/>
+            <y:Point x="1515.020876257951" y="539.9706839967503"/>
+            <y:Point x="1515.020876257951" y="453.20684321689646"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_optional" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e21" source="n15" target="n16">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="3.0767668562143626" sy="-4.241919676828957" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_optional" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e22" source="n4" target="n15">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-10.731265321911604" sy="46.99727051177899" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e23" source="n2" target="n11">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="76.14293149759328" sy="-1.8132722357237867" tx="0.0" ty="0.0">
+            <y:Point x="626.1429314975933" y="193.24820217532408"/>
+            <y:Point x="1962.9981305227761" y="193.24820217532408"/>
+            <y:Point x="1962.9981305227761" y="513.2319552216279"/>
+            <y:Point x="1552.2497552181453" y="513.2319552216279"/>
+            <y:Point x="1552.2497552181453" y="637.0771730300569"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e24" source="n13" target="n2">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="106.91060005973793" ty="-3.3516556638310817">
+            <y:Point x="1947.6142962417039" y="449.00719740048737"/>
+            <y:Point x="1947.6142962417039" y="212.6069552216279"/>
+            <y:Point x="656.9106000597379" y="212.6069552216279"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_many_optional" target="crows_foot_one_mandatory"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e25" source="n2" target="n16">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="33.622737611698085" sy="-3.852826969943237" tx="0.0" ty="0.0">
+            <y:Point x="583.6227376116981" y="169.03104792851332"/>
+            <y:Point x="1988.166807473599" y="169.03104792851332"/>
+            <y:Point x="1988.166807473599" y="575.0071974004874"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e26" source="n2" target="n15">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-66.37218521527188" sy="-10.006360682372133" tx="0.0" ty="0.0">
+            <y:Point x="483.6278147847281" y="192.10679935012178"/>
+            <y:Point x="269.7925182778231" y="192.10679935012178"/>
+            <y:Point x="269.7925182778231" y="936.6843785540211"/>
+            <y:Point x="1975.859740048741" y="936.6843785540211"/>
+            <y:Point x="1975.859740048741" y="721.4118277822909"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e27" source="n2" target="n14">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-96.23842404549134" sy="-18.82640129975624" tx="0.0" ty="0.0">
+            <y:Point x="453.76157595450866" y="214.05442729488226"/>
+            <y:Point x="292.2313160032495" y="214.05442729488226"/>
+            <y:Point x="292.2313160032495" y="903.2502030869214"/>
+            <y:Point x="1941.3783509341997" y="903.2502030869214"/>
+            <y:Point x="1941.3783509341997" y="829.217059301381"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e28" source="n2" target="n12">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-128.4620644406682" sy="-11.134484159220108" tx="3.4455320877336817" ty="38.63606823720556">
+            <y:Point x="421.5379355593318" y="223.37563921837852"/>
+            <y:Point x="307.61515028432177" y="223.37563921837852"/>
+            <y:Point x="307.61515028432177" y="854.02193338749"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="crows_foot_one_mandatory" target="crows_foot_many_optional"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources/>
+  </data>
+</graphml>
